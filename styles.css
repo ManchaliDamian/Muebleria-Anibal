@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+}
+
+body {
+
+    background-color: #fff;
+
+}
+
+header {    
+    background-color: #bbe428;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 5rem;
+}
+nav{
+    background-color: #f79005;
+    width: 60%;
+    height: 3rem;
+    border-radius: 15px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    height: inherit;
+    padding-left: 0;
+}
+li {
+    font-size: 1rem;
+    
+}
+a {
+    color:#212121;
+    text-decoration: none;
+}
+
+a:hover {
+    color:whitesmoke;
+    
+    
+}
+
+.hero {
+    height: 50vh;
+    text-align: center;
+    background-color: #f79005;
+}
+h1 {
+    margin: 0;
+    padding-top: 3rem ;
+}
