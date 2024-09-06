@@ -13,16 +13,31 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 4rem;
+}
+.nav-search {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
     
 }
-
-.logo {
-    width: 5rem;
+input {
+    width: 40%;
+    padding: 7px;
+    height: 1rem;
+    border-radius: 15px;
 }
+.logo {
+    display: flex;
+}
+.logo-img {
+    width: 4rem;
+}
+
 nav{
     background-color: #f79005;
-    width: 60%;
-    height: 3rem;
+    width: 50%;
+    height: 1.9rem;
     border-radius: 15px;
 }
 ul {
