@@ -8,19 +8,18 @@ body {
 
 }
 
-header {    
-    background-color: #bbe428;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 4rem;
+.navbar .form-control{
+
+    height: 50px; /* Cambia la altura del input */
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente */
+    padding: 10px 15px; /* Ajusta el padding para una mejor apariencia */
 }
-.nav-search {
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    
+
+.navbar .btn {
+    height: 50px; /* Alinea la altura del botón con el input */
 }
+
+
 input {
     width: 40%;
     padding: 7px;
@@ -34,12 +33,10 @@ input {
     width: 4rem;
 }
 
-nav{
-    background-color: #f79005;
-    width: 50%;
-    height: 1.9rem;
-    border-radius: 15px;
+section .productos-destacados h2{
+    text-align: center;
 }
+
 ul {
     list-style-type: none;
     display: flex;
@@ -73,3 +70,33 @@ h1 {
     margin: 0;
     padding-top: 3rem ;
 }
+
+
+.card-container {
+    display: flex;
+    gap: 20px; /* Espacio entre las tarjetas */
+    justify-content: center; /* Centra las tarjetas dentro del contenedor */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a múltiples filas si no hay suficiente espacio horizontal */
+  }
+  
+  .card {
+    width: 18rem; /* Tamaño fijo para todas las tarjetas */
+    margin-bottom: 20px; /* Espacio inferior entre tarjetas en caso de múltiples filas */
+  }
+
+.title-container{
+    text-align: center;
+    background-color: #f79005;
+    padding: 10px;
+}
+
+.footer-class{
+    text-align: center;
+}
+
+.welcome-title{
+    text-align: center;
+    background-color: #f79005;
+    padding: 25px;
+}
+
