@@ -4,8 +4,8 @@ html, body {
 
 body {
 
-    background-color: #fff;
-
+    background-color: #dedede;
+/*#dedede*/
 }
 
 .navbar .form-control{
@@ -92,6 +92,20 @@ h1 {
 
 .footer-class{
     text-align: center;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3px 0;
+    margin: 4px 0;
+    align-items: center;
+}
+
+.paragraph{
+    align-items: flex-start;
 }
 
 .welcome-title{
@@ -100,3 +114,30 @@ h1 {
     padding: 25px;
 }
 
+.link{
+    display: inline-flex;
+    font-size: 40px;
+    width: 50px;
+    height:50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #212121;
+    border-radius: 100%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 12px;
+    padding: 1px;
+}
+
+.contact{
+    display: flex;
+    align-items: flex-end;
+}
